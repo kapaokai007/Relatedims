@@ -153,3 +153,13 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.banner2 {
+  background-color: #658cc2;
+  background-repeat: no-repeat;  
+  height: 650px;
+  width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
