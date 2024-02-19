@@ -1,11 +1,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Relatedims</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+    <style>
+        input[type="checkbox"] {
+        display: inline-block;
+        vertical-align: middle;
+        } 
+    </style>  
 </head>
 <body>
     <nav>
@@ -13,13 +21,32 @@
         <a href="relatedims.html" class="poppins-semibold">RelateDims</a>
        </div>
        <ul class="menu">
-        <li id="Home"><a href="#" class="poppins-extralight">Home</a></li>
-        <li id="Competitive"><a href="PuzzleSelected.html" class="poppins-extralight">Competitive</a></li>
-        <li id="Puzzle"><a href="#" class="poppins-extralight">Puzzle</a></li>
+        <li id="Home"><a href="relatedims.html" class="poppins-semibold">Home</a></li>
+        <li id="Puzzle"><a href="PuzzleSelected.html" class="poppins-semibold">Puzzle</a></li>
        </ul>
     </nav>
    <section class="banner2">
+        <a class="back" href="relatedims.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
+    <div class="word-section2">
+    <p style="color:white; font-size:1.2em; text-align:center; font-weight:600;">Problem picks</p>
+    <p style="color:white; font-size:1em; text-align:center; font-weight:500;">select a various type of problem you like to try.</p>
+    </div>
+    <div class = "row">
+        <div class="box">
+            <div class="sequence-type">
+                <div class="card">
+                    <div class="puzzle-discribe">
+                        <p style="color:black; text-align: center; font-weight:600;">Sequence</p>
+                        <p style="color:black; text-align: center; font-weight:400; font-size:.6em;">understand sequence and predict next number.</p>
+                    </div>
+                    <video id="vid2" width="280" height="200" muted><source src="D:/Desktop/project/Image/001.webm" type="video/webm"></video>
+                    <a href="Level_selected.html"><button class="btn2">Get Started</button></a>    
+                </div>
+            </div>
+        </div>
+    </div>
    </section>
-
+   <script src="login_system.js"></script>
+   <script src="mouse_hover.js"></script>
 </body>
 </html>

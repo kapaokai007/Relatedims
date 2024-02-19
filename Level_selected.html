@@ -1,0 +1,53 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatedims</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+    <style>
+        input[type="checkbox"] {
+        display: inline-block;
+        vertical-align: middle;
+        } 
+    </style>  
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="relatedims.html" class="poppins-semibold">RelateDims</a>
+        </div>
+        <ul class="menu">
+         <li id="Home"><a href="relatedims.html" class="poppins-semibold">Home</a></li>
+         <li id="Puzzle"><a href="PuzzleSelected.html" class="poppins-semibold">Puzzle</a></li>
+        </ul>
+    </nav>
+    <section class="banner2">
+        <a class="back" href="PuzzleSelected.html"><ion-icon name="chevron-back-outline"></ion-icon></a>
+        <div class="input-value">
+            <a class="submit" href="puzzle-size.html" onclick="send_data()"><ion-icon name="arrow-forward-circle"></ion-icon></a>
+        <div class="difficality">
+        <p style="color: white; font-size:1.3em; font-weight:600;">Difficality</p>
+        <select id="diff-level">
+        <option style="color:black;" selected value = 1>Beginner</option>
+        <option style="color:black;" value = 2>Intermediate</option>
+        <option style="color:black;" value = 3>Expert</option>
+        </select>
+        </div>
+        <div class="helpness">
+            <p style="color: white; font-size:1.3em; font-weight:600;">Helper</p>
+            <select id="help-level">
+            <option style="color:black;" selected value = 2>Yes</option>
+             <option style="color:black;" value = 3>No</option>
+            </select>
+        </div>
+    </div>
+    </section>
+    <script src="selected_choice.js"></script>
+    <script src="login_system.js"></script>
+    <script src="Level_selected.html"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+var a = Math.floor(math.random()*max);
